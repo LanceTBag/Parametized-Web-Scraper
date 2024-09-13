@@ -17,7 +17,7 @@ This Python script is a job scraper that retrieves job listings from an API and 
 ## Features
 
 - Scrapes job listings based on job titles provided in a text file.
-- Dynamically adapts to different job sites by reading attribute mappings from a CSV file.
+- Dynamically adapts to different job sites by reading attribute mappings from a text file.
 - Retrieves 16 common job attributes such as Job Title, Company Name, Location, Job URL, and more.
 - Supports the use of a fallback attribute file when a site-specific file is not available.
 - Saves results to a CSV file for easy data analysis.
@@ -43,7 +43,14 @@ This Python script is a job scraper that retrieves job listings from an API and 
     ```
 
 3. **Obtain an API Key:**
-    - This script uses the [RapidAPI Job Search API](https://rapidapi.com/letscrape-6bRBa3QguO5/api/job-search) to retrieve job listings. You need to sign up for a RapidAPI account and get an API key.
+    - This script uses the [RapidAPI Job Search API](https://rapidapi.com/letscrape-6bRBa3QguO5/api/job-search) to retrieve job listings. You need to sign up for a RapidAPI account and get an API key. The key would need to be placed in the following code block as shown:
+
+<!-- python code block -->
+```python
+# API information
+API_HOST = "jsearch.p.rapidapi.com"
+API_KEY = "928a9190c3mshab0ee290c1bc1e1p164796jsn1e6102b67201"
+```
 
 4. **Create the necessary files:**
     - `job_titles.txt`: A text file containing job titles to search for, one per line.
@@ -73,7 +80,4 @@ Software Engineer
 Data Scientist
 Product Manager
 
-<!-- python code block -->
-```python
-replaceme
-```
+
