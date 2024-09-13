@@ -13,7 +13,7 @@ This Python script is a job scraper that retrieves job listings from an API and 
 6. [How It Works](#how-it-works)
 7. [Troubleshooting](#troubleshooting)
 8. [Credits](#credits)
-9. [Python Code](#pythoncode)
+9. [Python Code](#python-code)
  
 ## Features
 
