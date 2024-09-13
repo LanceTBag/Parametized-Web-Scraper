@@ -56,27 +56,6 @@ API_KEY = "928a9190c3mshab0ee290c1bc1e1p164796jsn1e6102b67201"
     - `job_titles.txt`: A text file containing job titles to search for, one per line.
     - `job_attributes_default.txt`: A CSV file that maps common job attributes to API response fields. This file is used if a site-specific attributes file is not available.
   
-    - Sample jpb_titles.yxt
-  
-        Cybersecurity Analyst
-        Information Security Analyst
-        Security Operations Center (SOC) Analyst
-        Network Security Associate
-        Junior Cybersecurity Specialist
-        IT Security Intern
-        Cybersecurity Internship
-
-    - Sample jpb_attributes_default.yxt
-
-        "common_attribute_label","common_attribute_value"
-        "Job Title","job_title"
-        "Company Name","employer_name"
-        "Location","location"
-        "Job URL","job_apply_link"
-        "Job Description","job_description"
-        "Job Type","job_employment_type"
-        "Salary","job_min_salary"
-
 
 ## Usage
 
@@ -101,5 +80,26 @@ The `job_titles.txt` file should contain a list of job titles to search for, one
 Software Engineer
 Data Scientist
 Product Manager
+        Cybersecurity Analyst
+        Information Security Analyst
+        Security Operations Center (SOC) Analyst
+        Network Security Associate
+        Junior Cybersecurity Specialist
+        IT Security Intern
+        Cybersecurity Internship
+
+### Job Attributes File (`job_attributes_default.txt`)
+
+The `job_attributes_default.txt` file should contain a list of job attributes to return in CSV format, with the attribute name and attrivute label on a line separated by a comma. Example:
+
+```plaintext
+"common_attribute_label","common_attribute_value"
+"Job Title","job_title"
+"Company Name","employer_name"
+"Location","location"
+"Job URL","job_apply_link"
+"Job Description","job_description"
+"Job Type","job_employment_type"
+"Salary","job_min_salary"
 
 
