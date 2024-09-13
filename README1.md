@@ -1,5 +1,5 @@
 ![JobSearch](JobSearch.jpg)
-# Job Scraper
+# Flexible Web Scraper for Job Listings
 
 This Python script is a job scraper that retrieves job listings from an API and stores them in a CSV file. It is highly configurable and can adapt to different job sites by using different attribute mappings. The script dynamically reads job attributes from a text file based on the domain of the job site URL provided by the user.
 
