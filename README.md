@@ -1,3 +1,5 @@
+![JobSearch](JobSearch.jpg)
+ 
 # Flexible Web Scraper for Job Listings
 
 ## Overview
@@ -51,3 +53,7 @@ This Python script is a flexible web scraper designed to search job sites for sp
 
 This project is licensed under the MIT License.
 
+<!-- python code block -->
+```python
+replaceme
+```
