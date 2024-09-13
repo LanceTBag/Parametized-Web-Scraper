@@ -92,7 +92,7 @@ Cybersecurity Internship
 
 ### Job Attributes File (`job_attributes_default.txt`)
 
-Domain-Specific File: Named job_attributes_<domain>.txt (e.g., job_attributes_monster.txt).
+Domain-Specific File: Named job_attributes_domain.txt (e.g., job_attributes_monster.txt).
 Default File: job_attributes_default.txt
 These files should be CSV files with two columns: common_attribute_label and common_attribute_value. Each row represents a mapping of a common job attribute to its potential keys in the API response. Example content:
 
