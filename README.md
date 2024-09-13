@@ -1,7 +1,7 @@
 ![JobSearch](JobSearch.jpg)
 # Flexible Web Scraper for Job Listings
 
-This Python script is a job scraper that retrieves job listings from an API and stores them in a CSV file. It is highly configurable and can adapt to different job sites by using different attribute mappings. The script dynamically reads job attributes from a text file based on the domain of the job site URL provided by the user.
+This Python script is a job scraper that retrieves job listings from an API and stores them in a CSV file. It is highly configurable and can adapt to different job sites by using different attribute mappings. The script dynamically reads job attributes from a CSV file based on the domain of the job site URL provided by the user.
 
 ## Table of Contents
 
@@ -55,6 +55,28 @@ API_KEY = "928a9190c3mshab0ee290c1bc1e1p164796jsn1e6102b67201"
 4. **Create the necessary files:**
     - `job_titles.txt`: A text file containing job titles to search for, one per line.
     - `job_attributes_default.txt`: A CSV file that maps common job attributes to API response fields. This file is used if a site-specific attributes file is not available.
+  
+    - Sample jpb_titles.yxt
+  
+        Cybersecurity Analyst
+        Information Security Analyst
+        Security Operations Center (SOC) Analyst
+        Network Security Associate
+        Junior Cybersecurity Specialist
+        IT Security Intern
+        Cybersecurity Internship
+
+    - Sample jpb_attributes_default.yxt
+
+        "common_attribute_label","common_attribute_value"
+        "Job Title","job_title"
+        "Company Name","employer_name"
+        "Location","location"
+        "Job URL","job_apply_link"
+        "Job Description","job_description"
+        "Job Type","job_employment_type"
+        "Salary","job_min_salary"
+
 
 ## Usage
 
