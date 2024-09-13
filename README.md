@@ -80,13 +80,14 @@ The `job_titles.txt` file should contain a list of job titles to search for, one
 Software Engineer
 Data Scientist
 Product Manager
-        Cybersecurity Analyst
-        Information Security Analyst
-        Security Operations Center (SOC) Analyst
-        Network Security Associate
-        Junior Cybersecurity Specialist
-        IT Security Intern
-        Cybersecurity Internship
+Cybersecurity Analyst
+Information Security Analyst
+Security Operations Center (SOC) Analyst
+Network Security Associate
+Junior Cybersecurity Specialist
+IT Security Intern
+Cybersecurity Internship
+    ```
 
 ### Job Attributes File (`job_attributes_default.txt`)
 
@@ -101,5 +102,6 @@ The `job_attributes_default.txt` file should contain a list of job attributes to
 "Job Description","job_description"
 "Job Type","job_employment_type"
 "Salary","job_min_salary"
+    ```
 
 
