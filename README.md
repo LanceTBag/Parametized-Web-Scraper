@@ -13,8 +13,8 @@ This Python script is a job scraper that retrieves job listings from an API and 
 6. [How It Works](#how-it-works)
 7. [Troubleshooting](#troubleshooting)
 8. [Credits](#credits)
-8. [Python Code](#pythoncode)
-9. 
+9. [Python Code](#pythoncode)
+ 
 ## Features
 
 - Scrapes job listings based on job titles provided in a text file.
