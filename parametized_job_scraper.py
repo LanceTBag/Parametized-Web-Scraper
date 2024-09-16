@@ -20,7 +20,7 @@ from fake_useragent import UserAgent
 
 # API information
 API_HOST = "jsearch.p.rapidapi.com"
-API_KEY = "928a9190c3mshab0ee290c1bc1e1p164796jsn1e6102b67201"
+API_KEY = "insert api key here"
 
 # Read job titles from a text file
 def read_job_titles(file_path):
